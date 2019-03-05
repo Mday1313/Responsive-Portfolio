@@ -222,19 +222,40 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 980px) {
+  @media screen and (maxwidth: 980px) {
   .main-section {
     
+  }
+  #logo {
+    
+   }
+   nav{
 
+   }
+
+  .auth-image { 
+    
+  }
+  ul {
+    padding-inline-start: 10px;
+    margin: 0;
   }
   
 }
 
 
 @media screen and (max-width: 768px) {
+ 
+  #main-container {
+    
+    
+    
+  }
+  .main-section {
+    
   
-  #logo {
-   margin-left: 2.5%;
+}
+ #logo {
    
   }
 ul {
@@ -242,95 +263,83 @@ ul {
    margin: 0;
  }
   nav{
-    margin-right: 2.5%;
+    
   }
-  #main-container {
-    width: 95%;
-    margin: auto;
-    float: none;
-    position: static;
-    text-align: left;
-  }
-  .main-section {
-    margin: auto;
-    clear: both;
-    float: none;
-   overflow: hidden;
+
  
-}
 .auth-image { 
-  width: 50%;
-}
+ 
+} 
 }
 @media screen and (max-width: 640px) {
   
-  body {
+   body {
     clear: both;
   }
   
 #masterhead {
-  clear: both;
-  text-align: center;
-  margin: auto;
-  
- 
+ position: static;
+ text-align: center;
+ margin: auto;
 }
 
+
+
+nav {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  
+}
+#logo {
+  clear:both;
+  width: 100%;
+}
 #main-container {
   margin: auto;
   float: none;
   position: static;
-  text-align: left;
-}
-
-nav {
-  width: 100%;
-  text-align: center;
-  
-  
-}
-#logo {
-  clear: both;
-  width: 100%;
+  margin-bottom: 30px;
 }
 .work {
-  clear: both;
-  margin: auto;
- 
-  width: 100%;
+  width: 90%;
+ margin-bottom: 20px;
+  margin: auto 10px;
 }
 .work:nth-child(even) {
   margin-right: 0;
 }
 .main-section {
- margin: auto;
- clear: both;
- float: none;
-overflow: hidden;
- height: 100%;
+    width: 95%;
+    margin: auto;
+    clear: both;
+    float: none;
+   overflow: hidden;
+   padding-top: 0;
+   margin-top: 40px;
+    
   
-
 }
 
 h1 {
-padding: 10px;
-margin: 5px;
-text-align: left;
+
 }
 
 .auth-image {
   clear: both;
   width: 100%;
+  margin-bottom: 10px;
+
 }
   img {
-    width: 100%;
-  }
-
-  .container {
-    clear: both;
-    margin: auto;
-   
     
   }
 
+  .container {
+    
+    
+  } 
+footer {
+  margin-top: 20px;
 }
+} 
