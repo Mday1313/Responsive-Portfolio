@@ -224,9 +224,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .main-section {
-    width: 75%;
-
-  }
+    
 
   }
   
@@ -234,9 +232,36 @@ input[type=submit] {
 
 
 @media screen and (max-width: 768px) {
-
+  
+  #logo {
+   margin-left: 2.5%;
+   
+  }
+ul {
+   padding-inline-start: 10px;
+   margin: 0;
+ }
+  nav{
+    margin-right: 2.5%;
+  }
+  #main-container {
+    width: 95%;
+    margin: auto;
+    float: none;
+    position: static;
+    text-align: left;
+  }
+  .main-section {
+    margin: auto;
+    clear: both;
+    float: none;
+   overflow: hidden;
+ 
 }
-
+.auth-image { 
+  width: 50%;
+}
+}
 @media screen and (max-width: 640px) {
   
   body {
