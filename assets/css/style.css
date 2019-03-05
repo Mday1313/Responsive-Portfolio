@@ -12,15 +12,16 @@ body {
     position: relative;
 }
 
+  
 
-.container-1 {
+ .container-1 {
     padding: 20px;
     background: #fff;
     border-bottom: 2px solid #ccc;
     width: 100%;
     
 }
-
+s
 #head-size {
     max-width: 960px;
     margin: auto;
@@ -35,14 +36,14 @@ body {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
-    margin-left: -25px;
+    
 }
 
 .topnav {
     max-width: 400px;
     position: absolute;
-    right: -10px;
-    bottom: 30%;
+    right: 155px;
+    top: 25px;
     
 }
 
@@ -57,7 +58,7 @@ body {
 
 #noborder {
     border-right: none;
-}
+} 
 
 .toplink:hover {
     font-size: 24px;
@@ -176,7 +177,7 @@ input[type=submit] {
     width: 250px;
     position: relative;
     left: 15px;
-    height: 800px;
+    min-height: 800px;
 }
 #container-3 {
     
@@ -262,9 +263,9 @@ h3 {
         width: 75%;
     }
     .my-name {
-        padding-left: 25%;
-        padding-right: 30%;
-        width: 100%;
+        padding-left: 0 100% 0 100%;
+        
+        width: 680px;
         margin: auto;
         margin-left: 0;
         margin-right: 0;
@@ -284,7 +285,7 @@ h3 {
         display: block;
         font-size: 0.75rem;
         width: 100%;
-        overflow: none;
+        position: static;
        
 }
 
@@ -293,16 +294,30 @@ h3 {
         Width: 100%;
         padding: 0;
         margin: 0;
-        
+        position: static;
     }
     .container-2 {
         width: 80%;
         float: none;
         margin-right: 10%;
         margin-right: 10%;
-        border
+        position: static;
     }
 
-  
+  #port-boxes {
+      width: 100%;
+      position: static;
+  }
+#container-3 {
+    position: static;
+    height: 100%;
+}
+    #box-1, #box-2, #box-3, #box-4, #box-5 {
+        position: static;
+        margin: auto;
+    }
 
+    h3 {
+        position: static;
+    }
 }
